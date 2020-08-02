@@ -33,10 +33,9 @@ Nếu một cái ```test case ``` thất bại, thì không cho ```deploy```. CI
 
 3. ```CI server ``` sẽ gửi sinh ra các thông báo và gửi về cho các member.
 
-4. ```Unit test``` sẽ được thực hiện nếu việc build đã thành công. nếu test thành công thì sẽ được ```deploy``` trên 2 server  ```Staging``` và```production``` .
+4. ```Unit test``` sẽ được thực hiện nếu việc build đã thành công. nếu test thành công thì sẽ được ```deploy``` trên 2 server  ```Staging``` và```production```.
 
-5. ``` CI server ``` tiếp tục xem những cái sự thay đổi ở ``` repo``` , toàn bộ quá trình này được lặp lại
-
+5. ``` CI server ``` tiếp tục xem những cái sự thay đổi ở ``` repo``` , toàn bộ quá trình này được lặp lại.
 
 ##### 2 môi trường ``` staging ``` và ```production ``` 
 
